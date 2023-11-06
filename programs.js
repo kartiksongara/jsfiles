@@ -1,10 +1,14 @@
 // 1 define fibonacci series usinng for loop
-// let a=10;
-// let num=0;
-// for(let i=0;i<=a;i++){
-//     num=num+i
-// }
-// console.log(num)
+let a=1;
+let b=0;
+let c=0
+for(let i=0;i<=10;i++){
+console.log(c)
+     c=a+b
+    a=b;
+    b=c;
+}
+
 
 
 // 2 define prime number using for loop
